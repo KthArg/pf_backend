@@ -10,55 +10,75 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "heroTitle": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
     },
     "heroTitleAccent": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
     },
     "heroSubtitle": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
     },
     "heroCta": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
     },
     "heroCtaSecondary": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
     },
     "footerCtaTitle": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": true } }
     },
     "footerCtaSubtitle": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
     },
     "gymName": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
     },
     "gymAddress": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
     },
     "gymPhone": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
     },
     "gymEmail": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
     },
     "gymHours": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": { "i18n": { "localized": true } }
     },
     "membersCount": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
     },
     "trainersCount": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
     },
     "classesPerWeek": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
     },
     "yearsExperience": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": { "i18n": { "localized": false } }
     }
   }
 }
