@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_settings",
+  "info": {
+    "singularName": "home-setting",
+    "pluralName": "home-settings",
+    "displayName": "Home Settings",
+    "description": "Homepage content settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroTitleAccent": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "text"
+    },
+    "heroCta": {
+      "type": "string"
+    },
+    "heroCtaSecondary": {
+      "type": "string"
+    },
+    "footerCtaTitle": {
+      "type": "string"
+    },
+    "footerCtaSubtitle": {
+      "type": "text"
+    },
+    "gymName": {
+      "type": "string"
+    },
+    "gymAddress": {
+      "type": "string"
+    },
+    "gymPhone": {
+      "type": "string"
+    },
+    "gymEmail": {
+      "type": "string"
+    },
+    "gymHours": {
+      "type": "text"
+    },
+    "membersCount": {
+      "type": "string"
+    },
+    "trainersCount": {
+      "type": "string"
+    },
+    "classesPerWeek": {
+      "type": "string"
+    },
+    "yearsExperience": {
+      "type": "string"
+    }
+  }
+}

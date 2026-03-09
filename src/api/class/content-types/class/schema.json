@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "classes",
+  "info": {
+    "singularName": "class",
+    "pluralName": "classes",
+    "displayName": "Class",
+    "description": "The gym class offering"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "duration": {
+      "type": "integer",
+      "min": 1
+    },
+    "level": {
+      "type": "enumeration",
+      "enum": ["beginner", "intermediate", "advanced", "all"],
+      "default": "all"
+    },
+    "schedule": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "benefits": {
+      "type": "text"
+    },
+    "equipment": {
+      "type": "text"
+    }
+  }
+}
